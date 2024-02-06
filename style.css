@@ -1,0 +1,162 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+
+}
+body{
+    background-image: url(body-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar{
+    background-color: #311349;
+    display: flex;
+    justify-content: center;
+}
+.navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+   list-style-type: none;
+   align-items: center;
+}
+.navbar ul li{
+    
+    color:white;
+    margin-right: 30px;
+    font-size: 16px;
+}
+.navbar ul button{
+    color:#311349;
+    background-color: #ffc107;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+.navbar .nav-img{
+    margin: 10px;
+    margin-left: 10%;
+    
+}
+
+
+/* Page -2 */
+.page-2 {
+    display: flex;
+    justify-content: center;  
+}
+.page-2 .box{
+    width: 80%;
+    
+}
+.page-2 p{
+    text-align: center;
+    margin: 40px 0px;
+}
+.page-2 .row {
+    display: flex;
+    justify-content: space-between;
+}
+.page-2 .row .col{
+    width: 40%;
+}
+
+.heading{
+    text-align: center;
+     color: #b31e52;
+     margin: 20px 0px;
+
+}
+/* NSA Section */
+.nsa-section{
+    display: flex;
+    justify-content: center;
+}
+.nsa-section p{
+    text-align: center;
+
+}
+.nsa-container{
+    width: 60%;
+}
+/* Category  Section */
+.cat-section{
+    display: flex;
+    justify-content: center;
+}
+
+.cat-container{
+    width: 80%;
+}
+
+/* Winner  Section */
+.winner-section{
+    display: flex;
+    justify-content: center;
+}
+
+.winner-container{
+    width: 80%;
+}
+.winner-content h2{
+    background-color: #26b04b;
+    color: white;
+    padding:5px;
+    margin-bottom: 10px;
+}
+/* table section */
+
+.table-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mytable {
+    border-collapse: collapse;
+    border:1px solid black;
+    width: 80%;
+}
+.mytable th,td{
+    border:1px solid black;
+    padding: 5px 10px;
+}
+.mytable th{
+    text-align: center;
+}
+/* other section */
+.other-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.other-btn{
+    color:white;
+    background-color: #f25b26;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* Footer */
+footer{
+    background-color: #b31e52;
+    padding: 10px 0px;
+}
+footer p{
+    text-align: center;
+    color:white;
+    
+}
+
+
