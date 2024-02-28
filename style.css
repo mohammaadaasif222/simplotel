@@ -49,7 +49,9 @@ body{
     
 }
 
-
+.cover{
+    width:100%;
+}
 /* Page -2 */
 .page-2 {
     display: flex;
